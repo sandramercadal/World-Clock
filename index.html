@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World-Clock</title>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
-   
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -22,36 +22,45 @@
       </select>
 
       <div id="cities">
-      <div class="city" id="paris">
-        <div>
-          <h2>Paris</h2>
-          <div class="date"></div>
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
+        <div class="city" id="orlando">
+          <div>
+            <h2>Orlando</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city" id="tokyo">
+          <div>
+            <h2>Tokyo</h2>
+            <div class="date">August 15th 2022</div>
+          </div>
+          <div class="time">1:48:15 <small> AM </small></div>
+        </div>
+        <div class="city" id="hong_kong">
+          <div>
+            <h2>Hong Kong</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
       </div>
-      <div class="city" id="orlando">
-        <div>
-          <h2>Orlando</h2>
-          <div class="date"></div>
-        </div>
-        <div class="time"></div>
-      </div>
-      <div class="city" id="tokyo">
-        <div>
-          <h2>Tokyo</h2>
-          <div class="date">August 15th 2022</div>
-        </div>
-        <div class="time">1:48:15 <small> AM </small></div>
-      </div>
-      <div class="city" id="hong_kong">
-        <div>
-          <h2>Hong Kong</h2>
-          <div class="date"></div>
-        </div>
-        <div class="time"></div>
+
+      <div class="footer">
+        Coded by
+        <a href="https://www.linkedin.com/in/sandramercadal/"
+          >Sandra Mercadal</a
+        >
+        open-sourced on
+        <a href="https://github.com/">Github</a>
       </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
