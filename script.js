@@ -8,6 +8,37 @@ function updateTime() {
   parisDateElement.innerHTML = parisTime.format("MMMM	Do YYYY");
   parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
 
-  updateTime();
-  setInterval(updateTime, 1000);
+  let orlandoElement = document.querySelector("#orlando");
+
+  let orlandoDateElement = orlandoElement.querySelector(".date");
+  let orlandoTimeElement = orlandoElement.querySelector(".time");
+  let orlandoTime = moment().tz("America/Fort_Wayne");
+
+  orlandoDateElement.innerHTML = orlandoTime.format("MMMM	Do YYYY");
+  orlandoTimeElement.innerHTML = orlandoTime.format(
+    "h:mm:ss [<small>]A[</small>]"
+  );
+
+  let tokyoElement = document.querySelector("#tokyo");
+
+  let tokyoDateElement = tokyoElement.querySelector(".date");
+  let tokyoTimeElement = tokyoElement.querySelector(".time");
+  let tokyoTime = moment().tz("Asia/Tokyo");
+
+  tokyoDateElement.innerHTML = tokyoTime.format("MMMM	Do YYYY");
+  tokyoTimeElement.innerHTML = tokyoTime.format("h:mm:ss [<small>]A[</small>]");
+
+  let hong_kongElement = document.querySelector("#hong_kong");
+
+  let hong_kongDateElement = hong_kongElement.querySelector(".date");
+  let hong_kongTimeElement = hong_kongElement.querySelector(".time");
+  let hong_kongTime = moment().tz("Asia/Hong_Kong");
+
+  hong_kongDateElement.innerHTML = hong_kongTime.format("MMMM	Do YYYY");
+  hong_kongTimeElement.innerHTML = hong_kongTime.format(
+    "h:mm:ss [<small>]A[</small>]"
+  );
 }
+
+updateTime();
+setInterval(updateTime, 1000);
