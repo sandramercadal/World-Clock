@@ -1,5 +1,5 @@
 body {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 h1 {
@@ -15,7 +15,6 @@ h5 {
   font-size: 30px;
   margin: 0 0 5px;
 }
-
 
 select {
   display: block;
@@ -37,7 +36,6 @@ select {
 }
 
 .container {
-  
   background: pink;
   max-width: 500px;
   margin: 0 auto;
@@ -58,3 +56,4 @@ select {
   font-size: 12px;
   vertical-align: middle;
   line-height: 48px;
+}
