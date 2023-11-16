@@ -22,7 +22,7 @@ h3 {
 .select {
   font-size: 14px;
   border-radius: 4px;
-  padding: 5px;
+  padding: 1px;
 }
 .container {
   background: #ffefe5;
@@ -62,7 +62,7 @@ h3 {
 .neon {
   font-family: "Monoton", cursive;
   font-size: 37px;
-  color: #ffefe5;
+  color: #e982d1;
   position: absolute;
   top: 40%;
   left: 260%;
