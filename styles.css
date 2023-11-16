@@ -1,7 +1,7 @@
 body {
   background-image: url("https://getwallpapers.com/wallpaper/full/8/1/1/419151.jpg");
   background-size: cover;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Monoton";
 }
 
 h1 {
@@ -36,6 +36,10 @@ h3 {
   top: 30px;
 }
 
+.footer {
+  background-color: white;
+  font-size: 14px;
+}
 .city {
   display: flex;
   margin: -1px 0;
@@ -51,10 +55,11 @@ h3 {
 .date {
   opacity: 0.7;
   margin: -7px 0;
+  font-size: 12px;
 }
 
 .time {
-  font-size: 27px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -100,11 +105,4 @@ h3 {
   font-size: 12px;
   vertical-align: middle;
   line-height: 48px;
-}
-
-footer {
-  font-size: 18px;
-  color: whitesmoke;
-  position: relative;
-  top: 340px;
 }
