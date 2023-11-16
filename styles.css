@@ -18,18 +18,24 @@ h2 {
 
 .select {
   display: block;
-  width: 90%;
+
   font-size: 14px;
   border-radius: 4px;
   padding: 5px;
 }
 .container {
   background: #fe95df;
+  display: block;
+  background: pink;
+  max-width: 500px;
   margin: 10px auto;
-  padding: 7px;
-  border-radius: 50px;
-  max-width: 600px;
+  padding: 20px;
+  border-radius: 25px;
+  position: relative;
+  right: 250px;
+  top: 40px;
 }
+
 .city {
   display: flex;
   margin: 2px 0;
