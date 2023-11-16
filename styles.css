@@ -15,7 +15,10 @@ h2 {
   font-size: 23px;
   margin: 0 0 5px;
 }
-
+h3 {
+  right: 6000px;
+  top: 30px;
+}
 .select {
   font-size: 14px;
   border-radius: 4px;
@@ -53,6 +56,44 @@ h2 {
 .time {
   font-size: 27px;
   font-weight: bold;
+}
+
+.neon {
+  font-family: "Monoton", cursive;
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 260%;
+  transform: translate(-50%, -50%);
+  font-weight: 200;
+  letter-spacing: 8px;
+}
+
+.flicker-fast {
+  animation: flicker 1s linear infinite;
+}
+
+@keyframes flicker {
+  0%,
+  19.999%,
+  22%,
+  62.999%,
+  64%,
+  64.999%,
+  70%,
+  100% {
+    //text-shadow: none;
+    opacity: 0.99;
+  }
+  20%,
+  21.999%,
+  63%,
+  63.999%,
+  65%,
+  69.999% {
+    opacity: 0.4;
+  }
 }
 
 .time small {
