@@ -17,22 +17,20 @@ h2 {
 }
 
 .select {
-  display: block;
   font-size: 14px;
   border-radius: 4px;
   padding: 5px;
 }
 .container {
-  background: #fe95df;
+  background: #ffefe5;
   display: block;
-  background: pink;
   max-width: 250px;
   margin: 10px auto;
   padding: 20px;
   border-radius: 250px;
   position: relative;
-  right: 250px;
-  top: 40px;
+  right: 280px;
+  top: 30px;
 }
 
 .city {
