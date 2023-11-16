@@ -36,10 +36,6 @@ h3 {
   top: 30px;
 }
 
-.footer {
-  background-color: white;
-  font-size: 14px;
-}
 .city {
   display: flex;
   margin: -1px 0;
@@ -65,39 +61,22 @@ h3 {
 
 .neon {
   font-family: "Monoton", cursive;
-  font-size: 35px;
-  color: white;
+  font-size: 37px;
+  color: #ffefe5;
   position: absolute;
   top: 40%;
   left: 260%;
   transform: translate(-50%, -50%);
-  font-weight: 200;
-  letter-spacing: 8px;
+  letter-spacing: 6px;
 }
 
 .flicker-fast {
   animation: flicker 1s linear infinite;
 }
-
 @keyframes flicker {
-  0%,
-  19.999%,
-  22%,
-  62.999%,
-  64%,
-  64.999%,
-  70%,
-  100% {
-    //text-shadow: none;
-    opacity: 0.99;
-  }
-  20%,
-  21.999%,
   63%,
-  63.999%,
-  65%,
-  69.999% {
-    opacity: 0.4;
+  63.999% {
+    opacity: 0.6;
   }
 }
 
@@ -105,4 +84,13 @@ h3 {
   font-size: 12px;
   vertical-align: middle;
   line-height: 48px;
+}
+footer {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  top: 340px;
+  right: 530px;
+  color: white;
 }
