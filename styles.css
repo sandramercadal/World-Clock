@@ -67,7 +67,7 @@ h3 {
   top: 40%;
   left: 260%;
   transform: translate(-50%, -50%);
-  letter-spacing: 6px;
+  letter-spacing: 8px;
 }
 
 .flicker-fast {
@@ -91,6 +91,6 @@ footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: relative;
   top: 340px;
-  right: 530px;
-  color: white;
+  right: 540px;
+  color: #ffefe5;
 }
