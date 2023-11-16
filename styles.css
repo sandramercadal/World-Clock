@@ -11,14 +11,13 @@ h1 {
 }
 
 h2 {
-  color: grey;
+  color: black;
   font-size: 23px;
   margin: 0 0 5px;
 }
 
 .select {
   display: block;
-
   font-size: 14px;
   border-radius: 4px;
   padding: 5px;
@@ -27,10 +26,10 @@ h2 {
   background: #fe95df;
   display: block;
   background: pink;
-  max-width: 500px;
+  max-width: 250px;
   margin: 10px auto;
   padding: 20px;
-  border-radius: 25px;
+  border-radius: 250px;
   position: relative;
   right: 250px;
   top: 40px;
@@ -53,7 +52,7 @@ h2 {
 }
 
 .time {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: bold;
 }
 
