@@ -1,9 +1,6 @@
 body {
   background-image: url("https://getwallpapers.com/wallpaper/full/8/1/1/419151.jpg");
   background-size: cover;
-}
-
-body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -19,12 +16,19 @@ h2 {
   margin: 0 0 5px;
 }
 
-select {
+.select {
   display: block;
   width: 90%;
   font-size: 14px;
   border-radius: 4px;
   padding: 5px;
+}
+.container {
+  background: #fe95df;
+  margin: 10px auto;
+  padding: 7px;
+  border-radius: 50px;
+  max-width: 600px;
 }
 .city {
   display: flex;
@@ -36,13 +40,6 @@ select {
 
 .city:last-child {
   border: none;
-}
-
-.container {
-  background: #fe95df;
-  margin: 30px auto;
-  padding: 7px;
-  border-radius: 200px;
 }
 
 .date {
@@ -58,4 +55,10 @@ select {
   font-size: 12px;
   vertical-align: middle;
   line-height: 48px;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: whitesmoke;
 }
