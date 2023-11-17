@@ -24,16 +24,22 @@ h3 {
   border-radius: 4px;
   padding: 1px;
 }
+
 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background: #ffefe5;
-  display: block;
-  max-width: 250px;
   margin: 10px auto;
   padding: 20px;
-  border-radius: 250px;
+  border-radius: 50%;
   position: relative;
   right: 280px;
   top: 30px;
+  width: 260px;
+  height: 250px;
+  font-family: "Monoton";
 }
 
 .city {
