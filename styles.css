@@ -32,11 +32,10 @@ h3 {
   padding: 20px;
   border-radius: 50%;
   position: relative;
-  right: 400px;
-  bottom: 330px;
+  bottom: 328px;
   width: 60px;
   height: 50px;
-  right: 10%;
+  right: 9%;
 }
 
 .leftears {
@@ -46,7 +45,7 @@ h3 {
   padding: 20px;
   border-radius: 50%;
   position: relative;
-  right: 400px;
+  right: 410px;
   bottom: 430px;
   width: 60px;
   height: 50px;
