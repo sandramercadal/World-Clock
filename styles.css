@@ -25,7 +25,33 @@ h3 {
   border-radius: 4px;
   padding: 1px;
 }
+.ears {
+  display: flex;
+  background: #ffefe5;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 50%;
+  position: relative;
+  right: 400px;
+  bottom: 330px;
+  width: 60px;
+  height: 50px;
+  right: 10%;
+}
 
+.leftears {
+  display: flex;
+  background: #ffefe5;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 50%;
+  position: relative;
+  right: 400px;
+  bottom: 430px;
+  width: 60px;
+  height: 50px;
+  right: 35%;
+}
 .container {
   display: flex;
   align-items: center;
@@ -100,7 +126,7 @@ footer {
   text-align: center;
   position: relative;
   top: 340px;
-  right: 540px;
+  right: 510px;
   color: #ffefe5;
   font-family: "Monoton";
 }
