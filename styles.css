@@ -126,6 +126,10 @@ footer {
   position: relative;
   top: 340px;
   right: 510px;
-  color: #ffefe5;
+  color: white;
   font-family: "Monoton";
+}
+
+a {
+  color: white;
 }
