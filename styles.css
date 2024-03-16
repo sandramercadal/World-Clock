@@ -1,6 +1,6 @@
 body {
   background-image: url("https://getwallpapers.com/wallpaper/full/8/1/1/419151.jpg");
-  background-size: cover;
+  background-repeat: no-repeat;
   font-family: "Monoton";
 }
 
@@ -24,32 +24,6 @@ h3 {
   font-size: 14px;
   border-radius: 4px;
   padding: 1px;
-}
-.ears {
-  display: flex;
-  background: #ffefe5;
-  margin: 10px auto;
-  padding: 20px;
-  border-radius: 50%;
-  position: relative;
-  bottom: 328px;
-  width: 60px;
-  height: 50px;
-  right: 9%;
-}
-
-.leftears {
-  display: flex;
-  background: #ffefe5;
-  margin: 10px auto;
-  padding: 20px;
-  border-radius: 50%;
-  position: relative;
-  right: 410px;
-  bottom: 430px;
-  width: 60px;
-  height: 50px;
-  right: 35%;
 }
 .container {
   display: flex;
@@ -97,10 +71,10 @@ h3 {
 .neon {
   font-family: "Monoton", cursive;
   font-size: 37px;
-  color: #e982d1;
+  color: white;
   position: absolute;
   top: 40%;
-  left: 260%;
+  left: 160%;
   transform: translate(-50%, -50%);
   letter-spacing: 8px;
 }
